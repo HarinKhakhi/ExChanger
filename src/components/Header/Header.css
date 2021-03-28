@@ -1,0 +1,19 @@
+.header{
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: var(--header-height);
+    width: 100%;
+
+    font-size: 40px;
+    font-weight: 30px;
+    
+
+    z-index: 2;
+    color: #f79e27;
+
+    transition: 1s height;
+}
